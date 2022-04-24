@@ -1,0 +1,81 @@
+print('GG')
+kg = float(input('Enter val'))
+print('Hi',kg,'GG',kg)
+2**4 = 2^4
+
+str*10 prints str 10 times
+
+a = len(str)
+str[::-1]
+str[-3:] prints the last three chars of string
+str.replace('a','e')
+
+if str.endswith('@student.com'):
+
+list
+a.sort()
+a.pop(index)
+a.insert(index,value)
+a.extend([4,5,6])
+a = a*2
+
+s = str.split(' ')
+for i in range(len(s)):
+    if s[i] == 'the' or s[i] == 'an'
+
+from datetime import datetime
+datetime.striptime(data_input,'%d%m%Y')
+str1.join(str2)
+
+freq = {}
+
+for item in my_list:
+     if item in freq:
+        freq[item] += 1
+     else:
+        freq[item] = 1
+
+with open('6.txt') as f:
+     nameF = f.read()
+     names = nameF.upper().split(, )
+     for name in names:
+         inital = ''
+         temp = name.split(' ')
+         inital = temp[0][0]+temp[-1][0]
+         if inital == enter_in:
+            print(name)
+
+import fileinput
+
+for lines in fileinput.input(files=("6.txt"))
+     for word in line.split('\t')
+
+class invest:
+      def __init__(self,p,i):
+          self.p = p
+          self.i = i
+      def val(self,n):
+          res = self.p*(1+self.i)*n
+
+obj = invest(1000,5.12)
+print('Intrest',obj.val(5))
+
+re.sub()
+re.findall()
+re.compile()
+
+txt = "The rain in Spain"
+x = re.search("^The.*Spain$", txt) starts with The and ends with Spain
+
+if x:
+   gg
+else:
+   NN
+
+txt = "The rain in Spain"
+x = re.findall("ai", txt)  op ['ai','ai']
+
+
+txt = "The rain in Spain"
+x = re.sub("\s", "9", txt)
+print(x)  replaces all spaces by 9
